@@ -1,0 +1,25 @@
+Clone repo to your computer:
+git clone <repo>
+
+Add the current directory to the staging area:
+git add .
+
+Add everything in the directory to the staging area:
+git add -A
+
+Commit to your local git:
+git commit -m "Your message here"
+
+Check status of your local files:
+git status
+
+Check the url of where commit will be pushed to:
+git remote -v
+
+Change url of where commit will be pushed to:
+git remote set-url origin <url.to.your.repo>
+
+Push repo to github:
+git push origin main
+
+
